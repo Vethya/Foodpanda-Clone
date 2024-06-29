@@ -1,0 +1,147 @@
+body {
+  font-family: SemiBold, sans-serif;
+  margin: 0;
+}
+
+video {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  width: 150px;
+}
+
+.btn {
+  font-family: SemiBold, sans-serif;
+  background-color: #ff2b85;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px;
+  border: none;
+  color: white;
+  border-radius: 50px;
+}
+
+.section {
+  margin-top: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px;
+}
+
+.header__menus {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-weight: bold;
+}
+
+.header__search {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.hero__video {
+  position: relative;
+}
+
+.hero__title {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  font-size: 50px;
+  font-weight: 1px;
+  color: white;
+}
+
+.quote {
+  margin-right: 600px;
+  margin-left: 100px;
+  font-size: 25px;
+}
+
+.delivery {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.delivery__img {
+  width: 600px;
+}
+
+.convenience {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.convenience__img {
+  width: 600px;
+}
+
+.job {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.job__img {
+  width: 600px;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.team__img {
+  width: 600px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  margin-top: 100px;
+  background-color: black;
+  padding: 50px 100px;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
